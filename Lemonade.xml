@@ -1,24 +1,24 @@
 <lemonade>
 <sizes>
   <small>
-			<price>
+      <price>
            $0.99
       </price>
-		</small>
-		<medium>
-			<price>
+  </small>
+  <medium>
+	<price>
            $1.50
-      </price>
-		</medium>
-		<large>
-			<price>
+        </price>
+  </medium>
+  <large>
+       <price>
            $2.99
        </price>
-		</large>
-		<extra_large>
-			<price>
+  </large>
+  <extra_large>
+       <price>
            $5.99
        </price>
-		</extra_large>
-	</sizes>
+  </extra_large>
+</sizes>
 </lemonade>
