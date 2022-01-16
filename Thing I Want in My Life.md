@@ -1,14 +1,4 @@
 <html>
-<head>
-<style>
-dt {
-  color: red
-}
-dd {
-  color: orange
-}
-</style>
-</head>
 <body>
 <dl>
 <dt><input type="checkbox" />Magnetic Thinking Putty</dt>
