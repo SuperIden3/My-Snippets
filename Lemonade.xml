@@ -17,8 +17,13 @@
   </large>
   <extra_large>
        <price>
-           $5.99
+           $3.99
        </price>
   </extra_large>
+	<gallon>
+		<price>
+		        $5.99
+		</price>
+	</gallon>
 </sizes>
 </lemonade>
