@@ -33,7 +33,7 @@ a1(&quot;Hello.&quot;);</pre>
 
    <h2>Logical Errors</h2>
 
-   <p>Logical errors is when your code (supposedly having an <strong>if... statement</strong>) has an error that you have written a wrong math symbol. &nbsp;Say...</p>
+   <p>Logical errors is when your code (supposedly having an <strong>if... statement</strong>) has an error that you have written a wrong logical operator (<code>!==</code>, <code>===</code>, <code>&lt;</code>, <code>&gt;</code>). &nbsp;Say...</p>
 
    <p>Rachel is on a diet, she wants to eat food that is less than 110 calories. But, something isn&apos;t right about this code...</p>
 
