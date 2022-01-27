@@ -1,3 +1,7 @@
+//Imported from Grasshopper, saved as a snippet.
+/*
+	Meet the website: https://learn.grasshopper.com
+*/
 var Person = (name, gender, age) => {
     console.log('Hello there!');
     document.write('Hello there!');
