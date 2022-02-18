@@ -3,6 +3,6 @@
   Website not mine btw.
 */
 var pickRandom = function(arrayOrObject) {
-  var random = Math.random() * array.length | 0;
+  var random = Math.random() * arrayOrObject.length | 0;
   return arrayOrObject[random]
 }
