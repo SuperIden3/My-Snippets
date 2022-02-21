@@ -21,14 +21,14 @@
        </price>
   </extra_large>
 	<gallon>
-		<price>
-		        $7.00
-		</price>
+            <price>
+                $7.00
+            </price>
 	</gallon>
 	<life_time>
-		<price>
-		        $15.00
-		</price>
+            <price>
+                $15.00
+            </price>
 	</life_time>
 </sizes>
 </lemonade>
