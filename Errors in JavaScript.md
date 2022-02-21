@@ -43,7 +43,7 @@ a1("Hello.");
 ```js
 function eatFood(food, calories) {
 
-  if (calories < 110) {
+  if (calories > 110) {
 
     console.log(food + " is okay to eat.");
 
