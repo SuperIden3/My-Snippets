@@ -15,7 +15,8 @@
 -->
    <p>A syntax error happens when there is a missing, different, or extra character. Like an <em>double comma, a missing parenthesis, or a different letter</em>.</p>
 
-   <pre>let findStringLength = (string1) =&gt; {
+```js
+let findStringLength = (string1) =&gt; {
 
   console.log(string1);
 
@@ -23,7 +24,8 @@
 
 }
 
-a1(&quot;Hello.&quot;);</pre>
+a1("Hello.");
+```
 
    <p>This code is supposed to print out the string along with the length of the string in the console. But <u>it won&apos;t print out since &quot;a1&quot; is not defined</u>. JavaScript is <strong>case-sensitive</strong>. This is a <strong>syntax error</strong>.</p>
 
@@ -38,19 +40,21 @@ a1(&quot;Hello.&quot;);</pre>
 
    <p>Rachel is on a diet, she wants to eat food that is less than 110 calories. But, something isn&apos;t right about this code...</p>
 
-   <pre>function eatFood(food, calories) {
+```js
+function eatFood(food, calories) {
 
-  if (calories &gt; 110) {
+  if (calories < 110) {
 
-    console.log(food + &quot; is okay to eat.&quot;);
+    console.log(food + " is okay to eat.");
 
   } else {
 
-    console.log(food + &quot; is not okay to eat.&quot;);
+    console.log(food + " is not okay to eat.");
 
   }
 
-}</pre>
+}
+```
 
    <p>This code is supposed to print out (say <code>food = &quot;icecream&quot;</code> and <code>calories = 200</code>) &quot;icecream is not okay to eat&quot; since icecram has 200 calories. But it prints &quot;icecream is okay to eat&quot;. This is because in the if... statement, it checks if calories are greater than 110, rather than less than 110. This is a <strong>logical error</strong>.</p>
 
@@ -58,7 +62,9 @@ a1(&quot;Hello.&quot;);</pre>
 
    <p>An <strong>arithmetic error</strong> is an error in math.</p>
 
-   <pre>console.log(1 + 2 - &quot;3&quot;);</pre>
+```js
+console.log(1 + 2 - "3");
+```
 
    <p>This will print out an error. 1 + 2 = 3, and since the other 3 is a string but is being subtracted, it will be an error.</p><br>
 
