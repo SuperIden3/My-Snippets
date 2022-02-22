@@ -14,11 +14,18 @@ function divide(num1, num2) {
     document.write(num1 + (' \xF7 ' + num2));
     document.write(' = ' + num1 / num2);
 }
+/*Start advanced functions*/
 //If you want to find the remainder of something, you can use this function.
 function findRemainder(num1, num2) {
     document.write(num1 + '% of ' + num2);
     document.write(' = ' + num1 % num2);
 }
+//If you want to make a power, use this function!
+function power(base, exponent) {
+  document.write(base + ' to the power of ' + exponent);
+  document.write(' = ' + base ** power);
+}
+/*End advanced functions*/
 let RulesOfMath = [
     'Parenthesis',
     'Exponents',
