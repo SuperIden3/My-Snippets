@@ -16,7 +16,7 @@
    <p>A syntax error happens when there is a missing, different, or extra character. Like an <em>double comma, a missing parenthesis, or a different letter</em>.</p>
 
 ```js
-let findStringLength = (string1) =&gt; {
+let findStringLength = (string1) => {
 
   console.log(string1);
 
@@ -24,7 +24,7 @@ let findStringLength = (string1) =&gt; {
 
 }
 
-a1("Hello.");
+FindLength("Hello.");
 ```
 
    <p>This code is supposed to print out the string along with the length of the string in the console. But <u>it won&apos;t print out since &quot;a1&quot; is not defined</u>. JavaScript is <strong>case-sensitive</strong>. This is a <strong>syntax error</strong>.</p>
