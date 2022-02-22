@@ -27,7 +27,7 @@ let findStringLength = (string1) => {
 FindLength("Hello.");
 ```
 
-   <p>This code is supposed to print out the string along with the length of the string in the console. But <u>it won&apos;t print out since &quot;a1&quot; is not defined</u>. JavaScript is <strong>case-sensitive</strong>. This is a <strong>syntax error</strong>.</p>
+   <p>This code is supposed to print out the string along with the length of the string in the console. But <u>it won&apos;t print out since &quot;FindLength&quot; is not defined</u>. JavaScript is <strong>case-sensitive</strong>. This is a <strong>syntax error</strong>.</p>
 
 <!--   
 <p>This is also a syntax error.</p>
