@@ -3,7 +3,7 @@ class greet {
     this.message = message;
   }
   say() {
-    console.log(`${this.message}`
+    console.log(`${this.message}`);
   }
 }
 
