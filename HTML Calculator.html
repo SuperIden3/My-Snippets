@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js" type="module"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width; initial-scale: 1.0;">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <h2>Add</h2>
+    <form oninput="x.value = parseFloat(a.value) + parseFloat(b.value);">
+      <input type="number" id="a" /> + <input type="number" id="b" /> =
+      <output id="x" for="a b"></output>
+    </form>
+    <h2>Subtract</h2>
+    <form oninput="y.value = parseFloat(c.value) - parseFloat(d.value);">
+      <input type="number" id="c" /> - <input type="number" id="d" /> =
+      <output for="c d" id="y"></output>
+    </form>
+    <h2>Multiply</h2>
+    <form oninput="z.value = parseFloat(e.value) * parseFloat(f.value);">
+      <input type="number" id="e" /> × 
+      <input type="number" id="f" /> = 
+      <output id="z" for="e f"></output>
+    </form>
+    <h2>Divide</h2>
+    <form oninput="w.value = parseFloat(g.value) / parseFloat(h.value);">
+      <input type="number" id="g" /> ÷ 
+      <input type="number" id="h" /> = 
+      <output id="w" for="g h"></output>
+    </form>
+    <h2>Remainder</h2>
+    <form oninput="v.value = parseFloat(i.value) % parseFloat(j.value);">
+      <input type="number" id="i" /> % 
+      <input type="number" id="j" /> = 
+      <output id="v" for="i j"></output>
+    </form>
+  </body>
+</html>
