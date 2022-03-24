@@ -2,7 +2,7 @@
   visit https://www.delftstack.com/howto/javascript/javascript-pick-random-from-array for more info.
   Website not mine btw.
 */
-var pickRandom = function(arrayOrObject) {
-  var random = Math.random() * arrayOrObject.length | 0;
-  return arrayOrObject[random]
+var pickRandom = function(array) {
+  let random = Math.random() * array.length | 0;
+  return array[random];
 }
