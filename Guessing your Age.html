@@ -1,0 +1,19 @@
+<form oninput="
+  var date = new Date();
+  var x;
+  if(b.value == `yes`){
+      x = 0;
+    } else if(b.value == `no`) {
+      x = 1;
+    }
+  c.value = date.getFullYear() - parseInt(a.value) - x;
+  ">
+  <label for="a">Birthyear: </label>
+  <input type="number" id="a"/>
+  <br />
+  <label for="b">Did you already have your birthday?</label>
+  <input type="text" id="b" />
+  <hr />
+  <label for="c">Age: </label>
+  <output id="c" for="a b"></output>
+</form>
