@@ -1,26 +1,33 @@
-<style>
-  hr:before {
-    content: 'Let the magic happen!';
-    padding: 0 4px;
-    position: relative;
-  }
-</style>
+<fieldset>
+  <legend>Main</legend>
 <form oninput="
   var date = new Date();
   var x;
-  if(b.value == `yes`){
+  if(b.value == `yes` || b.value == `Yes`){
       x = 0;
-    } else if(b.value == `no`) {
+    } else if(b.value == `no` || b.value == `No`) {
       x = 1;
     }
   c.value = date.getFullYear() - parseInt(a.value) - x;
-  ">
+  " method="get" action="https://observablehq.com/@bd529898e635d792/guessing-your-age">
   <label for="a">Birthyear: </label>
   <input type="number" id="a"/>
   <br />
   <label for="b">Did you already have your birthday?</label>
-  <input type="text" id="b" />
-  <hr />
+  <select id="b">
+    <option default="true" value="undefined"></option>
+    <option>Yes</option>
+    <option>No</option>
+  </select>
+  <hr style="hr:after {
+    background: #fff;
+    content: 'break';
+    padding: 0 4px;
+    position: relative;
+    top: 0px;
+}
+" />
   <label for="c">Age: </label>
   <output id="c" for="a b"></output>
-</form>
+  </form>
+  </fieldset>
