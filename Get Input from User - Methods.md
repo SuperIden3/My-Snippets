@@ -32,6 +32,9 @@ If you want to use a template of mine, visit: https://github.com/SuperIden3/My-S
 
 `(Scanner).nextLine()`: Reads a String value from the user
 
-`(Scanner).nextLong()`: Reads a long value from the user
-
 `(Scanner).nextShort()`: Reads a short value from the user
+
+---
+
+`Floats` and `doubles` are the same thing, so you can use `(Scanner).nextDouble` or `(Scanner).nextFloat`, your choice.
+`(Scanner).nextLong()`: Reads a long value from the user
