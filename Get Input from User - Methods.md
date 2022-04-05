@@ -16,6 +16,8 @@ public class Program {
 }
 ```
 
+If you want to use a template of mine, visit: https://github.com/SuperIden3/My-Snippets/blob/aa9e51df35ce1664c05d685d4e65cc99c38b64b3/Get%20Input%20from%20User%20-%20Template.java.
+
 ---
 
 `(Scanner).nextBoolean()`: Reads a boolean value from the user
