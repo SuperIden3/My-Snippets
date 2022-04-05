@@ -1,5 +1,5 @@
 # Java
-Java is used for Apps for Android phones.
+Java is used for Apps for Android phones, along with *Kotlin*.
 
 ```java
 public class Program {
