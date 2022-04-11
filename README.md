@@ -1,13 +1,12 @@
-Here, this is where I code JavaScript files.
-They might have some HTML files, but it also has JavaScript.
+Here, this is where I code `JavaScript` files.
 
 ```js
 alert('Check out the code!')
 ```
 
-JavaScript is what creates the behavior of a page.
+`JavaScript` is what creates the behavior of a page.
 
-For instance, if you want to create a button that shows you the date, that's on your device, printed on a new line, you would use JavaScript.
+For instance, if you want to create a button that shows you the date, that's on your device, printed on a new line, you would use `JavaScript`, along with some `HTML`.
 
 ```html
 <!DOCTYPE html>
