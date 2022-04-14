@@ -3,7 +3,7 @@
   Credit to that person entirely.
   Website not mine btw.
 */
-var pickRandom = function(array) {
-  let random = Math.random() * array.length | 0;
+var pickRandom = (array: any[]): any => {
+  let random: number = Math.random() * array.length | 0;
   return array[random];
 }
