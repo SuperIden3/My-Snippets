@@ -1,5 +1,6 @@
 /*
   Got this idea from https://www.geeksforgeeks.org/scanner-class-in-java/, with a few modifications.
+  Credit to that person entirely.
   Website ain't mine.
 */
 
