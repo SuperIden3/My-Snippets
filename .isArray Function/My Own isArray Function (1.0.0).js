@@ -1,3 +1,4 @@
+// 1.0.0
 const isArray = function(variable) {
     if(!!variable && typeof variable == "object") {
         return true;
