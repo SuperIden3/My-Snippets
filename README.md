@@ -4,7 +4,7 @@ Here, this is where I code `JavaScript` files.
 alert('Check out the code!')
 ```
 
-`JavaScript` is what creates the behavior of a page.
+`JavaScript` is what creates the behavior of a page. It is a front-end code.
 
 For instance, if you want to create a button that shows you the date, that's on your device, printed on a new line, you would use `JavaScript`, along with some `HTML`.
 
