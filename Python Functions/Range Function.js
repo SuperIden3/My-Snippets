@@ -1,8 +1,8 @@
 var range = {
 	/**
-	 * @param {number} start The starting number
-	 * @param {number} end The ending number
-	 * @returns {any} array The array produced and returned from the function
+	 * @param {number} start - The starting number
+	 * @param {number} end - The ending number
+	 * @returns {any} array - The array produced and returned from the function
 	 */
 	forward: (start, end) => {
 
@@ -17,9 +17,9 @@ var range = {
 		}
 	},
 	/**
-	 * @param {number} start The starting number
-	 * @param {number} end The ending number
-	 * @returns {any} array The array produced and returned from the function
+	 * @param {number} start - The starting number
+	 * @param {number} end - The ending number
+	 * @returns {any} array - The array produced and returned from the function
 	 */
 	backward: (start, end) => {
 		if (start != end) {
