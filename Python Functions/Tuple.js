@@ -4,3 +4,4 @@ class Tuple {
     this.items = items2
   }
 }
+// Use Tuple['items'][index] to find indexes of the tuple.
