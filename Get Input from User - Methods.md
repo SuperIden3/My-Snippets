@@ -6,9 +6,10 @@ If you want to import the scanner for user input, use:
 import java.util.Scanner;
 ```
 
-Before the `Main` or `Program` class. Then create a new `scanner` in the class.
+Before the `Main` or `Program` class. Then create a new `Scanner` in the class.
 
 ```java
+import java.util.Scanner;
 public class Program {
   public static void main(String[] args) {
     Scanner input /*Or any other name*/ = new Scanner(System.in);
@@ -36,5 +37,8 @@ If you want to use a template of mine, visit: https://github.com/SuperIden3/My-S
 
 ---
 
-`Floats` and `doubles` are the same thing, so you can use `(Scanner).nextDouble` or `(Scanner).nextFloat`, your choice.
+`Float`s and `Double`s are the same thing, so you can use `(Scanner).nextDouble` or `(Scanner).nextFloat`, your choice.
+
+---
+
 `(Scanner).nextLong()`: Reads a long value from the user
