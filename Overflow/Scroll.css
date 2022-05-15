@@ -1,0 +1,5 @@
+.scrollable {
+  overflow: scroll;
+  width: /*specifiy*/;
+  height: /*specify*/;
+}
