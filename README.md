@@ -1,3 +1,5 @@
-# Cascading Style Sheets
+# Intro to Computer/Machine Code
 
-<abbr title="Cascading Style Sheets" style="cursor: help;">CSS</abbr> is a **front-end** language for styling the HTML document webpage.
+Computer or machine code is used for every function in all of our computers.
+
+Without those languages, we wouldn't have created apps or games easily.
