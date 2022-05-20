@@ -16,4 +16,4 @@ const range = (start,end,increment_or_decrement_value = 1) => {
         return undefined
     }
 }
-console.log(range(1,10,Infinity))
+// Arguments must be type of number, not equal to each other, and must not equal to Infinity, for preventing a crash.
