@@ -1,7 +1,7 @@
 class Tuple {
   constructor(...items) {
-    const items2 = [...items]
-    this.items = items2
+    this.items = items
+    this.length = items.length
+    items = undefined
   }
 }
-// Use Tuple['items'][index] to find indexes of the tuple.
