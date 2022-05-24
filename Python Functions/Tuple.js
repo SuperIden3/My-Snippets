@@ -1,10 +1,7 @@
 class Tuple {
   constructor(...items) {
     this.items = items
-    this.length = {
-        "items": this.items.length,
-        "this": this.length
-    }
+    this.length = this.items.length
     Object.freeze(this.items)
   }
 }
