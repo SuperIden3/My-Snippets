@@ -3,7 +3,7 @@ class Tuple extends Array {
     super(items)
     this.items = this[0]
     this[0] = undefined
-    this.length = this[0].length
+    this.length = this["items"].length
     Object.freeze(this.items)
     Object.freeze(this.length)
   }
