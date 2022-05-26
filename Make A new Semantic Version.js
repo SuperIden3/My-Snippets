@@ -16,7 +16,7 @@ class Version {
       return undefined
     }
   }
-  get version() {
+  version() {
     return this.version
   }
   update(number) {
