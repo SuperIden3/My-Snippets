@@ -15,6 +15,6 @@ An example is:
 
 ```css
 .myClass {
-  -webkit-background-color: orange;
+  -webkit-border-before: 5px ridge black;
 }
 ```
