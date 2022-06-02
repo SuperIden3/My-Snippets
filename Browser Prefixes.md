@@ -2,7 +2,7 @@
 
 - Use `-webkit-` for **Chrome** and **Safari**
 - Use `-moz-` for **Mozilla Firefox**
-- Use `-o-` for **Opera**
+- Use `-o-` and `-wap-` for **Opera**
 - Use `-ms-` for **Internet Explorer**
 
 ---
